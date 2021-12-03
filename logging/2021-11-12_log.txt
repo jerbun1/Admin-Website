@@ -1,0 +1,32 @@
+
+Signed out at 2021-11-12 5:41:59 with user 
+Sign in success at 2021-11-12 5:43:12 User TonyIronMan@dcmail.ca sign in
+Signed out at 2021-11-12 5:45:06 with user 
+Failed to login at 2021-11-12 5:46:05 with user BuildBob@dcmail.ca:(
+Failed to login at 2021-11-12 5:46:22 with user BuildBob@dcmail.ca:(
+Failed to login at 2021-11-12 5:46:32 with user BuildBob@dcmail.ca:(
+Sign in success at 2021-11-12 5:47:33 User Klove@dcmail.ca sign in
+Signed out at 2021-11-12 5:49:54 with user 
+Sign in success at 2021-11-12 5:50:04 User mScot@dcmail.ca sign in
+Signed out at 2021-11-12 6:01:25 with user 
+Sign in success at 2021-11-12 6:01:30 User mScot@dcmail.ca sign in
+Signed out at 2021-11-12 6:02:31 with user 
+Sign in success at 2021-11-12 6:02:37 User JimH@dcmail.ca sign in
+Signed out at 2021-11-12 6:03:29 with user 
+Sign in success at 2021-11-12 6:03:36 User mScot@dcmail.ca sign in
+Signed out at 2021-11-12 6:03:43 with user 
+Sign in success at 2021-11-12 6:03:56 User Klove@dcmail.ca sign in
+Signed out at 2021-11-12 6:04:29 with user 
+Sign in success at 2021-11-12 6:04:36 User DSchrute@dcmail.ca sign in
+Signed out at 2021-11-12 6:06:33 with user 
+Sign in success at 2021-11-12 6:06:42 User Klove@dcmail.ca sign in
+Signed out at 2021-11-12 6:21:23 with user 
+Sign in success at 2021-11-12 6:21:29 User JimH@dcmail.ca sign in
+Signed out at 2021-11-12 6:21:41 with user 
+Sign in success at 2021-11-12 6:21:46 User DSchrute@dcmail.ca sign in
+Signed out at 2021-11-12 6:22:23 with user 
+Sign in success at 2021-11-12 21:50:54 User DSchrute@dcmail.ca sign in
+Signed out at 2021-11-12 21:57:12 with user 
+Sign in success at 2021-11-12 21:57:17 User JimH@dcmail.ca sign in
+Signed out at 2021-11-12 22:20:05 with user 
+Sign in success at 2021-11-12 22:20:12 User DSchrute@dcmail.ca sign in

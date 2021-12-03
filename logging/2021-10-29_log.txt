@@ -1,0 +1,99 @@
+
+Sign in success at 2021-10-29 2:06:07 User DSchrute@dcmail.ca sign in
+Signed out at 2021-10-29 2:06:38 with user 
+Sign in success at 2021-10-29 2:06:45 User JimH@dcmail.ca sign in
+Signed out at 2021-10-29 2:09:06 with user 
+Sign in success at 2021-10-29 2:09:09 User JimH@dcmail.ca sign in
+Sign in success at 2021-10-29 2:32:36 User JimH@dcmail.ca sign in
+Signed out at 2021-10-29 2:33:04 with user 
+Sign in success at 2021-10-29 2:33:09 User DSchrute@dcmail.ca sign in
+Signed out at 2021-10-29 2:33:34 with user 
+Sign in success at 2021-10-29 2:33:39 User JimH@dcmail.ca sign in
+Signed out at 2021-10-29 2:34:08 with user 
+Sign in success at 2021-10-29 2:34:11 User JimH@dcmail.ca sign in
+Signed out at 2021-10-29 2:34:15 with user 
+Sign in success at 2021-10-29 2:36:30 User JimH@dcmail.ca sign in
+Signed out at 2021-10-29 2:36:34 with user 
+Sign in success at 2021-10-29 2:36:40 User DSchrute@dcmail.ca sign in
+Sign in success at 2021-10-29 2:37:53 User DSchrute@dcmail.ca sign in
+Sign in success at 2021-10-29 2:38:41 User DSchrute@dcmail.ca sign in
+Sign in success at 2021-10-29 2:39:20 User DSchrute@dcmail.ca sign in
+Signed out at 2021-10-29 2:40:18 with user 
+Sign in success at 2021-10-29 2:40:21 User DSchrute@dcmail.ca sign in
+Signed out at 2021-10-29 2:40:26 with user 
+Sign in success at 2021-10-29 2:40:31 User JimH@dcmail.ca sign in
+Signed out at 2021-10-29 2:41:22 with user 
+Sign in success at 2021-10-29 2:41:26 User JimH@dcmail.ca sign in
+Sign in success at 2021-10-29 2:51:02 User JimH@dcmail.ca sign in
+Signed out at 2021-10-29 2:51:09 with user 
+Sign in success at 2021-10-29 2:51:15 User DSchrute@dcmail.ca sign in
+Sign in success at 2021-10-29 2:51:21 User DSchrute@dcmail.ca sign in
+Sign in success at 2021-10-29 2:51:21 User DSchrute@dcmail.ca sign in
+Sign in success at 2021-10-29 2:51:48 User DSchrute@dcmail.ca sign in
+Signed out at 2021-10-29 2:52:08 with user 
+Sign in success at 2021-10-29 2:52:11 User DSchrute@dcmail.ca sign in
+Signed out at 2021-10-29 2:52:44 with user 
+Sign in success at 2021-10-29 2:52:47 User DSchrute@dcmail.ca sign in
+Signed out at 2021-10-29 2:52:50 with user 
+Sign in success at 2021-10-29 2:52:56 User JimH@dcmail.ca sign in
+Signed out at 2021-10-29 2:52:59 with user 
+Sign in success at 2021-10-29 2:53:04 User DSchrute@dcmail.ca sign in
+Sign in success at 2021-10-29 3:06:25 User DSchrute@dcmail.ca sign in
+Sign in success at 2021-10-29 3:10:26 User DSchrute@dcmail.ca sign in
+Sign in success at 2021-10-29 3:10:44 User DSchrute@dcmail.ca sign in
+Sign in success at 2021-10-29 3:11:17 User DSchrute@dcmail.ca sign in
+Sign in success at 2021-10-29 3:17:07 User DSchrute@dcmail.ca sign in
+Sign in success at 2021-10-29 3:19:24 User DSchrute@dcmail.ca sign in
+Sign in success at 2021-10-29 3:20:18 User DSchrute@dcmail.ca sign in
+Sign in success at 2021-10-29 20:17:07 User DSchrute@dcmail.ca sign in
+Sign in success at 2021-10-29 20:21:45 User DSchrute@dcmail.ca sign in
+Sign in success at 2021-10-29 20:26:40 User DSchrute@dcmail.ca sign in
+Sign in success at 2021-10-29 20:27:29 User DSchrute@dcmail.ca sign in
+Sign in success at 2021-10-29 20:28:48 User DSchrute@dcmail.ca sign in
+Sign in success at 2021-10-29 20:29:31 User DSchrute@dcmail.ca sign in
+Sign in success at 2021-10-29 20:30:06 User DSchrute@dcmail.ca sign in
+Signed out at 2021-10-29 20:31:09 with user 
+Sign in success at 2021-10-29 20:31:12 User DSchrute@dcmail.ca sign in
+Signed out at 2021-10-29 20:31:30 with user 
+Sign in success at 2021-10-29 20:35:33 User DSchrute@dcmail.ca sign in
+Signed out at 2021-10-29 20:35:51 with user 
+Sign in success at 2021-10-29 20:36:00 User DSchrute@dcmail.ca sign in
+Sign in success at 2021-10-29 20:45:33 User DSchrute@dcmail.ca sign in
+Sign in success at 2021-10-29 20:45:58 User DSchrute@dcmail.ca sign in
+Sign in success at 2021-10-29 20:51:40 User DSchrute@dcmail.ca sign in
+Sign in success at 2021-10-29 20:52:55 User DSchrute@dcmail.ca sign in
+Sign in success at 2021-10-29 20:54:28 User DSchrute@dcmail.ca sign in
+Sign in success at 2021-10-29 20:55:57 User DSchrute@dcmail.ca sign in
+Sign in success at 2021-10-29 21:01:29 User DSchrute@dcmail.ca sign in
+Sign in success at 2021-10-29 21:14:21 User DSchrute@dcmail.ca sign in
+Sign in success at 2021-10-29 21:15:04 User DSchrute@dcmail.ca sign in
+Sign in success at 2021-10-29 21:16:32 User DSchrute@dcmail.ca sign in
+Sign in success at 2021-10-29 21:22:44 User DSchrute@dcmail.ca sign in
+Sign in success at 2021-10-29 21:26:36 User DSchrute@dcmail.ca sign in
+Signed out at 2021-10-29 21:26:37 with user 
+Sign in success at 2021-10-29 21:33:00 User DSchrute@dcmail.ca sign in
+Signed out at 2021-10-29 21:37:05 with user 
+Sign in success at 2021-10-29 21:37:08 User DSchrute@dcmail.ca sign in
+Sign in success at 2021-10-29 21:38:22 User DSchrute@dcmail.ca sign in
+Signed out at 2021-10-29 21:38:57 with user 
+Sign in success at 2021-10-29 21:39:03 User DSchrute@dcmail.ca sign in
+Sign in success at 2021-10-29 21:39:51 User DSchrute@dcmail.ca sign in
+Sign in success at 2021-10-29 21:42:12 User DSchrute@dcmail.ca sign in
+Sign in success at 2021-10-29 21:42:53 User DSchrute@dcmail.ca sign in
+Sign in success at 2021-10-29 21:43:29 User DSchrute@dcmail.ca sign in
+Sign in success at 2021-10-29 21:43:46 User DSchrute@dcmail.ca sign in
+Sign in success at 2021-10-29 21:43:58 User DSchrute@dcmail.ca sign in
+Sign in success at 2021-10-29 21:49:44 User DSchrute@dcmail.ca sign in
+Sign in success at 2021-10-29 21:50:10 User DSchrute@dcmail.ca sign in
+Signed out at 2021-10-29 21:50:13 with user 
+Sign in success at 2021-10-29 21:50:16 User DSchrute@dcmail.ca sign in
+Sign in success at 2021-10-29 21:53:12 User DSchrute@dcmail.ca sign in
+Signed out at 2021-10-29 21:53:14 with user 
+Sign in success at 2021-10-29 21:53:16 User DSchrute@dcmail.ca sign in
+Signed out at 2021-10-29 21:53:45 with user 
+Sign in success at 2021-10-29 21:53:49 User DSchrute@dcmail.ca sign in
+Signed out at 2021-10-29 21:53:51 with user 
+Sign in success at 2021-10-29 21:53:54 User DSchrute@dcmail.ca sign in
+Signed out at 2021-10-29 21:54:15 with user 
+Sign in success at 2021-10-29 21:54:18 User DSchrute@dcmail.ca sign in
+Signed out at 2021-10-29 21:54:20 with user 

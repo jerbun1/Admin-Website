@@ -1,0 +1,15 @@
+
+Sign in success at 2021-10-26 22:38:33 User jdoo@dcmail.ca sign in
+Sign in success at 2021-10-26 22:42:55 User jdoo@dcmail.ca sign in
+Signed out at 2021-10-26 22:42:58 with user 
+Sign in success at 2021-10-26 22:43:13 User jdoo@dcmail.ca sign in
+Sign in success at 2021-10-26 23:33:45 User JimH@dcmail.ca sign in
+Sign in success at 2021-10-26 23:34:36 User JimH@dcmail.ca sign in
+Signed out at 2021-10-26 23:34:39 with user 
+Sign in success at 2021-10-26 23:35:11 User JimH@dcmail.ca sign in
+Signed out at 2021-10-26 23:36:10 with user 
+Sign in success at 2021-10-26 23:36:14 User JimH@dcmail.ca sign in
+Signed out at 2021-10-26 23:36:17 with user 
+Sign in success at 2021-10-26 23:36:32 User mScot@dcmail.ca sign in
+Sign in success at 2021-10-26 23:57:10 User JimH@dcmail.ca sign in
+Sign in success at 2021-10-26 23:59:43 User JimH@dcmail.ca sign in

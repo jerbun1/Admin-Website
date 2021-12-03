@@ -1,0 +1,10 @@
+
+Failed to login at 2021-10-17 6:07:19 with user JimH@dcmail.com:(
+Sign in success at 2021-10-17 6:07:41 User JimH@dcmail.ca sign in
+Sign in success at 2021-10-17 6:08:59 User JimH@dcmail.ca sign in
+Sign in success at 2021-10-17 6:09:07 User JimH@dcmail.ca sign in
+Sign in success at 2021-10-17 6:10:10 User JimH@dcmail.ca sign in
+Sign in success at 2021-10-17 6:10:20 User JimH@dcmail.ca sign in
+Signed out at 2021-10-17 6:10:22 with user 
+Sign in success at 2021-10-17 6:10:29 User JimH@dcmail.ca sign in
+Sign in success at 2021-10-17 6:13:16 User JimH@dcmail.ca sign in

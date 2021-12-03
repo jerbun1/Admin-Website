@@ -1,0 +1,4 @@
+
+Signed out at 2021-11-15 17:17:47 with user 
+Failed to login at 2021-11-15 17:17:51 with user DSchrute@dcmail.ca:(
+Sign in success at 2021-11-15 17:17:58 User DSchrute@dcmail.ca sign in
