@@ -1,7 +1,7 @@
 <?php
   include './includes/header.php';
 
-  //Use Display form function 
+  //Use Display form functio 
   if(isAdmin()){
     echo '<h1> Sales Register</h1><br/>';
     display_form(
