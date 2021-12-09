@@ -23,14 +23,14 @@ $selectSalesByType = pg_prepare($conn, "select_users_by_type", "SELECT id, First
 
 //Display Salesperson records with pagination
 $tableDataSales = pg_prepare($conn, "all_sales_users", "SELECT  EmailAddress, FirstName, LastName, PhoneExtension FROM users ");
-$tableDataSales = pg_prepare($conn, "all_sales_users_limit", "SELECT  EmailAddress, FirstName, LastName, PhoneExtension FROM users where type = $1 LIMIT $2 offset $3");
+$tableDataSales = pg_prepare($conn, "all_sales_users_limit", "SELECT * FROM users where type = $1 LIMIT $2 offset $3");
 
 //Display Client records with pagination
 $tableDataClients1 = pg_prepare($conn, "all_client_users_limit", "SELECT EmailAddress, FirstName, LastName, PhoneExtension FROM clients LIMIT $1 offset $2");
 $tableDataClients = pg_prepare($conn, "all_client_users", "SELECT EmailAddress, FirstName, LastName, PhoneExtension FROM clients");
 
 //Display only selected data records
-$tableDataAdminSales =  pg_prepare($conn, "sales_client_users", "SELECT EmailAddress, FirstName, LastName, PhoneExtension FROM clients WHERE users_id = $1 LIMIT $2 ");
+$tableDataAdminSales =  pg_prepare($conn, "sales_client_users", "SELECT * FROM clients WHERE users_id = $1 LIMIT $2 offset $3");
 $tableDataCalls = pg_prepare($conn, "call_users", "SELECT FirstName, LastName, CallTime, Client_id FROM calls LIMIT $1 OFFSET $2");
 
 
@@ -39,9 +39,11 @@ $regUser = pg_prepare($conn, "register_user", "INSERT INTO users(EmailAddress, F
 $regClient = pg_prepare($conn, "register_client", "INSERT INTO clients(EmailAddress, FirstName, LastName, PhoneExtension, users_id) VALUES($1, $2, $3, $4, $5)");
 $regCalls = pg_prepare($conn, "register_calls", "INSERT INTO calls(FirstName, LastName, CallTime, Client_id) VALUES($1, $2, $3, $4)");
 
-//Add Logo 
+//TO DO Add Logo 
 // $addColumn = pg_prepare($conn, 'logo_path', "ALTER TABLE clients ADD COLUMN Logo bytea");
 // $uploadFile = pg_prepare($conn, 'upload_file', 'INSERT INTO clients(EmailAddress, FirstName, LastName, PhoneExtension, users_id) VALUES($1, $2, $3, $4, $5)');
+
+$activeUser = pg_prepare($conn, 'activate_user', 'UPDATE users SET IsActive = $1 WHERE id = $2');
 
 
 //Password Change Statements
@@ -93,7 +95,6 @@ function user_authenticate($email, $password){
             
             $temp= array($date, $email);
             
-            $upResult = pg_execute($conn, "user_update_login_time", $temp);
             
             //Return the user info
             return $user;
@@ -274,15 +275,15 @@ function count_Salesperson(){
 
 
 //Function to display logged in salespeople clients
-function get_sales_Client($id, $limit){
+function get_sales_Client($id, $limit, $offset){
     global $conn;
 
-    $result = pg_execute($conn, "sales_client_users", array($id, $limit));
+    $result = pg_execute($conn, "sales_client_users", array($id, $limit, $offset));
 
-    $users = pg_fetch_all($result);
+    // $users = pg_fetch_all($result);
 
     // return dump($users);
-    return $users;
+    return $result;
 }
 
 //Function to Change the users password
@@ -298,5 +299,12 @@ function update_password($psd, $id){
 
 }
 
+//Changing the status of the user 
+function active_user($active, $id){
+    global $conn;
 
+    $result = pg_execute($conn, 'activate_user', array($active, $id));
+
+    return  $result;
+}
 ?>

@@ -40,22 +40,29 @@ else if ($_SERVER["REQUEST_METHOD"] == "POST")
         //If true store user info on session
         //then redirect user to dashboard page.
         if($user = user_authenticate($email, $password)){
-            
-            //Storing user on a session 
-            setUser($user);
-            print_r($user);
+             //If the user active status is false dont let the user sign-in
+             if($user['isactive'] == 'f'){
+             
+                $message .="The user account " .$email. " has suspended access.";
 
-            //Activity logging
-            successLog($email);
+            }else{
 
-            //Display message on successful login and redirect
-            setMessage("Congrats " .$email. " you logged in successfully your last login time was " .$user["lasttime"]."");
-            redirect("./dashboard.php");
-            
+                //Storing user on a session 
+                setUser($user);
+                print_r($user);
+
+                //Activity logging
+                successLog($email);
+
+                //Display message on successful login and redirect
+                setMessage("Congrats " .$email. " you logged in successfully your last login time was " .$user["lasttime"]."");
+                redirect("./dashboard.php");
+            }
+
         }else{
 
             //Display message on failed login attempt 
-            $message = "This user was not authenticated properly";
+            $message .= "This user was not authenticated properly";
             
             //Activity logging
             failedLog($email);

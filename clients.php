@@ -103,6 +103,13 @@
                 )
             )
         );
+        $page = 1;
+        //Get the current page number
+        if (isset($_GET['page'])) {
+            $page = $_GET['page'];
+        } else {
+            $page = 1;
+        }
         $salesID = $_SESSION['user']['id'];
         echo "<br/>";
         echo "<h1>User Clients</h1>";
@@ -114,7 +121,7 @@
             "first_name" => "First Name",
             "last_name" => "Last Name",
             "phone_number" => "PhoneNumber"),
-            get_sales_Client($salesID, 14),
+            get_sales_Client($salesID, PAGE_RECORDS,$page),
             count_Salesperson(),      
         );
     }
@@ -159,8 +166,7 @@
             $lName = trim($_POST['last_name']);
             $phoneNum = trim($_POST['phone-number']);
 
-            //Store the Selected Salesperson ID
-            $userID = $_POST['sales_people'];
+       
 
             /*
             To Do File Upload Section
@@ -189,8 +195,8 @@
                 
                 //Message for successful Registration
                 setMessage("Client".$fName. $lName." was registerd by Salesman ".$_SESSION['user']['firstname']. $_SESSION['user']['lastname']. "");
-                echo "Client".$fName.  $lName." was registerd by Salesman ".$_SESSION['user']['firstname']. $_SESSION['user']['lastname']. "";
-
+                // echo "Client".$fName.  $lName." was registerd by Salesman ".$_SESSION['user']['firstname']. $_SESSION['user']['lastname']. "";
+                $message .= "Client".$fName.  $lName." was registerd by Salesman ".$_SESSION['user']['firstname']. $_SESSION['user']['lastname']. "";
 
             }
 
@@ -199,11 +205,14 @@
                 $adminfName = $_SESSION['user']['firstname'];
                 $adminlName = $_SESSION['user']['lastname'];
 
+                //Store the Selected Salesperson ID
+                $userID = $_POST['sales_people'];
+
                 //Upload File 
-                $fileName = $_FILES['upload_File']['name'];
+                // $fileName = $_FILES['upload_File']['name'];
 
                 //Register Client
-                register_client($email, $fName, $lName, $phoneNum, $userID, $fileName);
+                register_client($email, $fName, $lName, $phoneNum, $userID);
                 
                 //Message for successful Registration
                 setMessage("Client".$fName. $lName." was registerd by Salesman ".$adminfName. $adminlName. "");

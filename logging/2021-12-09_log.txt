@@ -1,0 +1,39 @@
+
+Signed out at 2021-12-09 0:21:28 with user 
+Failed to login at 2021-12-09 0:22:51 with user AStark@dcmail.ca:(
+Failed to login at 2021-12-09 0:23:22 with user AStark@dcmail.ca:(
+Failed to login at 2021-12-09 0:23:56 with user AStark@dcmail.ca:(
+Failed to login at 2021-12-09 0:24:13 with user AStark@dcmail.ca:(
+Sign in success at 2021-12-09 0:25:17 User DSchrute@dcmail.ca sign in
+Signed out at 2021-12-09 0:27:23 with user 
+Sign in success at 2021-12-09 0:27:50 User DSchrute@dcmail.ca sign in
+Signed out at 2021-12-09 0:30:11 with user 
+Sign in success at 2021-12-09 0:30:18 User Spider-Man@mcuheros.com sign in
+Signed out at 2021-12-09 0:30:26 with user 
+Sign in success at 2021-12-09 0:31:01 User Spider-Man@mcuheros.com sign in
+Signed out at 2021-12-09 0:34:34 with user 
+Sign in success at 2021-12-09 0:34:36 User Spider-Man@mcuheros.com sign in
+Signed out at 2021-12-09 0:38:10 with user 
+Sign in success at 2021-12-09 0:38:15 User DSchrute@dcmail.ca sign in
+Signed out at 2021-12-09 0:38:45 with user 
+Sign in success at 2021-12-09 0:38:50 User Spider-Man@mcuheros.com sign in
+Signed out at 2021-12-09 0:39:01 with user 
+Failed to login at 2021-12-09 1:54:12 with user DSchrute@dcmail.ca:(
+Sign in success at 2021-12-09 1:54:32 User DSchrute@dcmail.ca sign in
+Signed out at 2021-12-09 2:02:44 with user 
+Sign in success at 2021-12-09 2:04:48 User DSchrute@dcmail.ca sign in
+Signed out at 2021-12-09 2:04:52 with user 
+Failed to login at 2021-12-09 2:05:38 with user DSchrute@dcmail.ca:(
+Sign in success at 2021-12-09 2:05:48 User DSchrute@dcmail.ca sign in
+Signed out at 2021-12-09 2:11:43 with user 
+Failed to login at 2021-12-09 2:13:56 with user DSchrute@dcmail.ca:(
+Sign in success at 2021-12-09 2:14:26 User DSchrute@dcmail.ca sign in
+Failed to login at 2021-12-09 2:21:55 with user DSchrute@dcmail.ca:(
+Sign in success at 2021-12-09 2:22:02 User DSchrute@dcmail.ca sign in
+Signed out at 2021-12-09 2:22:08 with user 
+Sign in success at 2021-12-09 2:22:13 User DSchrute@dcmail.ca sign in
+Signed out at 2021-12-09 2:22:58 with user 
+Sign in success at 2021-12-09 2:23:13 User DSchrute@dcmail.ca sign in
+Signed out at 2021-12-09 2:23:31 with user 
+Sign in success at 2021-12-09 2:23:37 User Spider-Man@mcuheros.com sign in
+Signed out at 2021-12-09 2:25:39 with user 

@@ -11,7 +11,7 @@ include "./includes/header.php";
 //if the user is not logged on or in session then redirect
 
 if(isUser() == false){
-    $message .= "you must be logged in to get to dashboard";
+    setMessage("You must be logged in to get to dashboard");
     redirect("./sign-in.php");
 }
 
@@ -29,9 +29,10 @@ if(isUser() == false){
     This week
     </button>
 </div>
-<h2><?php echo $message; ?></h2>
 
 </div>
+<br/>
+<h2><?php echo $message; ?></h2>
 
 <h2>Section title</h2>
 <div class="table-responsive">

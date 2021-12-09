@@ -73,12 +73,17 @@
                     Index
                 </a>
                 </li>
-                <li class="nav-item">
-                <a class="nav-link" href="./sign-in.php">
-                    <span data-feather="file"></span>
-                    Sign-In 
-                </a>
-                </li>
+                <?php
+                    if(isUser() == false){
+                        echo '<li class="nav-item">
+                        <a class="nav-link" href="./sign-in.php">
+                            <span data-feather="file"></span>
+                            Sign-In 
+                        </a>
+                        </li>';
+                    }
+                ?>
+                
                 <?php 
                     if(isUser() && isAdmin()){
                        echo " <li class=\"nav-item\">

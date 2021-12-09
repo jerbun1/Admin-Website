@@ -107,6 +107,15 @@ function logoutLog(){
     fclose($fileOpen);
 }
 
+//Function to log an email message
+function mailLog($msg){
+    $date = date('Y-m-d');
+    $fileOpen = fopen('logging/'.$date.'email_log.txt', 'a');
+    fwrite($fileOpen, $msg);
+    fclose($fileOpen);
+
+}
+
 //Function to display a form
 function display_form($formElement){
     echo '<form class="form-salespeople" method="POST"  >';
@@ -164,6 +173,7 @@ function display_table($header, $record, $pageNumber){
         echo "</tr>"; 
     }   
     echo"</tbody>";
+    
     echo "</table>";  
       $nextPage = $page + 1;
       $prevPage = $page - 1;
@@ -178,6 +188,97 @@ function display_table($header, $record, $pageNumber){
     echo    "<li class='page-item'><a class='page-link' href='?page=".$nextPage."'>Next</a></li>";
     echo    "</ul>";
     echo "</nav>";
+
+}
+
+
+//Function to display a table with database records and user status
+function display_table2($header, $record, $pageNumber){
+    
+    //Displsy the table header
+    echo "\n<table class='table'>";
+    echo "\n<thead>";
+        foreach($header as $key => $value){
+            echo "\n<th scope=\*col\">" . $value . "</th>";
+        }
+    echo "</thead>";
+    echo "<tbody>";
+   
+    //Get the current page number
+    if (isset($_GET['page'])) {
+        $page = $_GET['page'];
+    } else {
+        $page = 1;
+    }
+
+    
+        //Get total number of pages
+        $records =ceil($pageNumber/PAGE_RECORDS);
+        
+        //Display Table info
+        while($row = pg_fetch_array($record)){
+            echo "\n<tr>";
+            echo "<td>". $row["emailaddress"] . "</td>";
+            echo "<td>". $row["firstname"] . "</td>";
+            echo "<td>". $row["lastname"] . "</td>";
+            echo "<td>"; 
+            echo "<form method='POST'>";
+                echo "<div>";
+                    echo "<input type='radio' id='Active' name='".$row['id']."' value='true' >";
+                    echo "<label for='4-Active'> Active</label>";
+                echo "</div>";
+                echo "<div>";
+                    echo "<input type='radio' id='InActive' name='".$row['id']."' value='false'>";
+                    echo "<label for='4-InActive'> In-Active</label>";
+                echo "</div>";                        
+                echo "<input type='submit' name='update' value='Update'>";
+            echo "</form>";   
+            echo "</td>";
+    
+            echo "</tr>"; 
+            
+            //If the update button is selected
+            if($_SERVER["REQUEST_METHOD"] == "POST"){
+                if(isset($_POST[$row['id']])){
+                    // echo $_POST[$row['id']];
+                    // echo $row['id'];
+
+                    //Get the status of the selected row 
+                    $active = $_POST[$row['id']];
+
+                    //Get the user id of the selected row
+                    $userID = $row['id'];
+
+                    //Update the status of the seleced user
+                    active_user($active, $userID);
+                    flashMessage();
+                    if($active = false){
+                        setMessage("The Salesperson " .  $row["firstname"] . " " .  $row["lastname"] . " has been disabled");
+                        echo "The Salesperson " .  $row["firstname"] . " " .  $row["lastname"] . " has been disabled";
+                    }else{
+                        setMessage("The Salesperson " .  $row["firstname"] . " " .  $row["lastname"] . " has been enabled");
+                        echo "The Salesperson " .  $row["firstname"] . " " .  $row["lastname"] . " has been enabled";
+                    }
+                }
+            }
+
+        }   
+            echo"</tbody>";
+            echo "</table>";  
+      
+            $nextPage = $page + 1;
+            $prevPage = $page - 1;
+            //Display pagination links
+            echo "<nav aria-label='Page navigation example'>";
+            echo    "<ul class='pagination'>";
+                echo    "<li class='page-item'><a class='page-link' href='?page=".$prevPage."'>Previous</a></li>";
+                    for($page=1; $page <= $records; $page++){
+                        echo '<li class="page-item"><a href="?page='.$page.'">'.$page.'</a></li>';
+                
+                    }
+            echo    "<li class='page-item'><a class='page-link' href='?page=".$nextPage."'>Next</a></li>";
+            echo    "</ul>";
+            echo "</nav>";
 
 }
 

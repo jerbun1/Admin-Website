@@ -52,16 +52,14 @@
     }
 
     echo "<h1>All SalesPeople</h1>";
-    echo "<br/>";
-    display_table(
+    display_table2(
         array(
         "email" => "Email",
         "first_name" => "First Name",
         "last_name" => "Last Name",
-        "phone_number" => "PhoneNumber"),
+        "active" => "Is Active?"),
         get_Salesperson(SALESPERSON, PAGE_RECORDS, $page),
         count_Salesperson()
-
     );
 
 
@@ -113,7 +111,7 @@
         register_user($email, $firstName, $lastName, $password, $createdTime, $lastTime, $extension, $type);
         $set =  register_user($email, $firstName, $lastName, $password, $createdTime, $lastTime, $extension, $type);
 
-        if($result=$set  ){
+        if(isset($set)){
           setMessage("Sales Person has been successfully added");
           setMessage("Salesperson".$firstName. $lastName." was created");
           echo "Salesperson".$firstName. $lastName." was created";
